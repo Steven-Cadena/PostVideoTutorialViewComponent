@@ -17,8 +17,8 @@ namespace PostVideoTutorialViewComponent.ViewComponents
         }
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            List<Equipo> coches = this.repo.GetEquipos();
-            return View(coches);
+            List<Equipo> equipos = this.repo.GetEquipos();
+            return View(equipos);
         }
 
     }
