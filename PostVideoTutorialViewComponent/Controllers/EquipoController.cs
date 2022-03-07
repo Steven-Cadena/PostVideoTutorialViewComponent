@@ -20,5 +20,6 @@ namespace PostVideoTutorialViewComponent.Controllers
             Equipo equipo = this.repo.FindEquipo(idequipo);
             return View(equipo);
         }
+
     }
 }
